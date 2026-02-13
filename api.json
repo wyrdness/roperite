@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/roperite",
     "maintainers": [
       {
@@ -18,132 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "roperite",
     "name": "Roperite",
     "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Fearsome Critter",
+    "subcategory": "Unknown",
     "tags": [
-      "fearsome-critter",
-      "lumberjack-folklore",
-      "predator",
-      "rope-appendage",
-      "humorous",
-      "tall-tale"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "A predatory creature with an extendable rope-like appendage used to lasso and capture prey, pulling victims to their doom.",
-      "full": "The Roperite is a deadly fearsome critter equipped with a unique hunting method: a rope-like appendage that extends to capture prey. According to lumberjack tall tales, this creature lurks in forests and can shoot out its rope-like limb or tail to lasso unsuspecting animals or even careless workers. Once caught in the Roperite's rope, victims are inexorably pulled toward the creature's waiting jaws. The Roperite represents the fearsome critter tradition's darker side, where humor meets menace in absurd predatory adaptations designed to frighten greenhorns."
+      "summary": "The Roperite is a menacing creature from American lumberjack folklore, known for its unique and deadly hunting method.",
+      "full": "The Roperite is a menacing creature from American lumberjack folklore, known for its unique and deadly hunting method. This predatory fearsome critter possesses an extendable rope-like appendage—either a specialized limb or tail—that it uses to lasso prey from a distance. According to the tall tales, the Roperite lurks in forests waiting for victims. When prey approaches, it shoots out its rope appendage to wrap around the target. Once caught, the victim is inexorably pulled toward the Roperite's waiting jaws with no hope of escape."
     },
     "etymology": {
-      "origin": "American lumberjack folklore, early 20th century",
-      "meaning": "From 'rope' plus suffix, indicating rope-using creature",
-      "first_use": "circa 1910"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Fearsome Critter",
-      "subtype": "Predator",
-      "variant": "Rope-wielding"
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
     "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "size": "Varies by account",
-      "coloration": ["varies"],
-      "features": [
-        {
-          "feature": "Rope appendage",
-          "description": "Extendable rope-like limb or tail used for capturing prey",
-          "frequency": "always"
-        },
-        {
-          "feature": "Predatory build",
-          "description": "Built for killing captured prey",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Details vary; defined primarily by rope-like appendage"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Rope lassoing",
-        "description": "Extends rope appendage to capture prey from distance",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Pulling victims",
-        "description": "Drags captured prey toward itself",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable",
-      "disposition": "aggressive predator",
-      "social_structure": "solitary",
-      "habitat_preference": ["forests", "lumber regions"],
-      "diet": "Carnivorous",
-      "patterns": [
-        "Lies in wait for prey",
-        "Lassos victims with rope appendage",
-        "Pulls prey to death",
-        "Ambush predator"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Lumber regions where workers traveled through forests",
-      "continents": ["North America"],
-      "countries": ["United States", "Canada"],
-      "regions": ["Lumber territories", "Forests"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1910",
+        "date": "Unknown",
         "circa": true,
-        "source": "Lumberjack tall tale collections"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "American occupational folklore from lumber camps",
-      "folklore_connections": "Represents menacing variant of fearsome critters; used to frighten workers"
-    }
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": ["Lumberjack tall tales"],
-      "beliefs": "Used to warn workers about forest dangers through exaggerated monster"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "cox-1910",
-      "type": "book",
-      "title": "Fearsome Creatures of the Lumberwoods",
-      "authors": ["William T. Cox"],
-      "date": "1910"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
