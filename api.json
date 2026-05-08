@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/roperite",
     "maintainers": [
       {
@@ -16,72 +16,123 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "roperite",
     "name": "Roperite",
-    "aliases": [],
+    "aliases": [
+      { "name": "Lariat Snake", "region": "California Sierras", "meaning": "informal name in some retellings of Cox's account" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter (American lumberjack folklore)",
     "tags": [
+      "fearsome-critter",
       "folklore",
-      "mythology"
+      "lumberjack-tall-tale",
+      "north-america",
+      "california",
+      "sierra-nevada"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Roperite is a menacing creature from American lumberjack folklore, known for its unique and deadly hunting method.",
-      "full": "The Roperite is a menacing creature from American lumberjack folklore, known for its unique and deadly hunting method. This predatory fearsome critter possesses an extendable rope-like appendage—either a specialized limb or tail—that it uses to lasso prey from a distance. According to the tall tales, the Roperite lurks in forests waiting for victims. When prey approaches, it shoots out its rope appendage to wrap around the target. Once caught, the victim is inexorably pulled toward the Roperite's waiting jaws with no hope of escape."
+      "summary": "A fearsome critter from American lumberjack tall tales, the Roperite is a pony-sized animal of the California Sierra foothills described as catching prey with a long, prehensile, rope-like beak that it uses as a lasso.",
+      "full": "The Roperite is a creature from the corpus of fearsome critters — humorous tall-tale beasts told in North American logging camps in the late 19th and early 20th centuries. It was placed in the published canon by William T. Cox in his 1910 book 'Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts'. According to Cox, the Roperite is about the size of an undernourished pony and lived in herds in the Sierra foothills of California, especially among the Digger pine country, but had not been reported in herds for many years by 1910. Its defining feature is a long, flexible, rope-like beak that it uses to lasso prey at speed; victims are then dragged through chaparral until dead. Cox's text relays a Digger-Indian (a colonial-era exonym for Indigenous Californian peoples) tradition that Roperites are the spirits of early Spanish ranchers, accounting for the lariat behaviour. The Roperite has no purported real-world basis: it is a literary preservation of a logging-camp joke."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American English; coined or recorded in the lumberjack folklore tradition before 1910",
+      "meaning": "From 'rope' + diminutive '-ite', referring to the beast's rope-like beak and lariat hunting method",
+      "first_use": "1910 (Cox, 'Fearsome Creatures of the Lumberwoods')"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "Tall-tale predator",
+      "variant": "Sierra Nevada"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "rumtifusel", "name": "Rumtifusel", "relationship": "similar", "description": "Another lumberjack fearsome critter; both are predator tall tales in the Tryon/Cox canon" },
+      { "id": "hidebehind", "name": "Hidebehind", "relationship": "similar", "description": "Predatory fearsome critter that ambushes lumberjacks" },
+      { "id": "agropelter", "name": "Agropelter", "relationship": "similar", "description": "Branch-throwing fearsome critter of the same folklore tradition" },
+      { "id": "snallygaster", "name": "Snallygaster", "relationship": "related", "description": "Another regional American tall-tale cryptid with a hooked beak" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.0, "max": 1.4, "unit": "meters", "confidence": "low" },
+      "coloration": ["sandy", "tawny"],
+      "features": [
+        { "feature": "Rope-like beak", "description": "A long, flexible, prehensile beak (sometimes described as a bill) used as a lariat to snare running prey", "frequency": "always" },
+        { "feature": "Pony-sized body", "description": "About the size of an undernourished pony, with a horse-like build for sustained pursuit", "frequency": "always" },
+        { "feature": "Powerful legs for chaparral running", "description": "Adapted for fast pursuit through the brush of the Sierra foothills", "frequency": "always" }
+      ],
+      "morphology": "A quadrupedal pony-sized vertebrate with an elongated, prehensile, rope-like upper jaw or beak. As a tall-tale creature it has no consistent zoological referent."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Lasso prey with rope-like beak", "description": "Throws or extends its beak around running prey and reels it in", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Drag prey through chaparral", "description": "Drags snared victims at speed through brush until dead", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "aggressive",
+      "social_structure": "variable",
+      "habitat_preference": ["California Sierra foothills", "Digger pine (Pinus sabiniana) country", "chaparral"],
+      "diet": "Carnivorous; pursues fleeing animals and (in tall tales) tenderfoot lumberjacks",
+      "patterns": [
+        "Originally said to travel in herds; later accounts describe solitary or rare individuals",
+        "Hunts by pursuit rather than ambush"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Restricted in folklore to the foothills of the Sierra Nevada in California, particularly the Digger pine belt of the western slope.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["California", "Sierra Nevada foothills"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Sierra Nevada foothills (Digger pine belt)",
+        "location": {
+          "description": "Western foothills of the Sierra Nevada, in the Pinus sabiniana belt of central California",
+          "country": "United States",
+          "region": "California"
+        },
+        "peak_period": "Pre-1910 (per Cox)",
+        "notes": "The only locale specified in Cox's 1910 description"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910",
+        "circa": false,
+        "source": "Cox, W. T. (1910), Fearsome Creatures of the Lumberwoods"
+      },
+      "peak_activity_periods": [
+        { "period": "1910–1939", "description": "Active circulation of the Roperite story in the published fearsome critter canon (Cox 1910 onward)" }
+      ],
+      "seasonal_patterns": "None recorded"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "American lumberjack tall-tale tradition of the late 19th and early 20th centuries, told around logging-camp stoves and used to haze 'tenderfoot' newcomers.",
+      "earliest_accounts": "First published in William T. Cox's 1910 book 'Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts' (illustrated by Coert Du Bois).",
+      "folklore_connections": "Part of a broader cycle of fearsome critters including the Hidebehind, Agropelter, Hodag, Squonk, Wampus Cat, Hugag, Splintercat, and others. Also linked, by Cox, to a Digger Indian tradition equating the beasts with the spirits of early Spanish ranchers."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910", "event": "William T. Cox publishes 'Fearsome Creatures of the Lumberwoods', formally introducing the Roperite to print", "significance": "Canonical first appearance", "source": "Cox, W. T. (1910)" },
+      { "date": "1939", "event": "Henry H. Tryon's 'Fearsome Critters' continues the published tradition of lumberjack tall-tale beasts", "significance": "Genre continuity for the Roperite's milieu", "source": "Tryon, H. H. (1939)" }
+    ],
+    "modern_era": "The Roperite survives almost entirely as a literary curiosity in the fearsome critters genre, anthologised in cryptozoology and folklore collections, illustrated in artbooks, and revived occasionally in modern folklore-revival publications and online bestiaries."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +143,86 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "roperite-evidence-cox-1910",
+        "type": "book chapter",
+        "name": "Cox 1910 entry on the Roperite",
+        "date": "1910",
+        "description": "Original published account and Coert Du Bois illustration of the Roperite in 'Fearsome Creatures of the Lumberwoods'",
+        "status": "verified",
+        "analysis": "The book is a verified primary source for the lumberjack tall-tale canon; the Roperite has no claimed extra-literary existence.",
+        "source": "Cox, W. T. (1910), Fearsome Creatures of the Lumberwoods"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Spirits of Spanish ranchers",
+        "description": "Tradition reported by Cox attributing Roperites to the souls of early Spanish ranchers, accounting for their lariat behaviour.",
+        "proponents": ["W. T. Cox (relaying Indigenous Californian tradition)"],
+        "evidence_cited": ["Lassoing behaviour echoing Spanish ranching technique"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Lumberjack tall tale",
+        "description": "The Roperite is a humorous fictional creature invented for entertainment and the hazing of new lumberjacks; it has no zoological basis.",
+        "proponents": ["Folklore scholars of the fearsome-critters tradition"],
+        "evidence_cited": ["No physical specimens, photographs, or non-literary witness accounts", "Genre conventions of fearsome-critter tall tales"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "North American lumberjack camp tall tales",
+        "California Sierra logging-camp story cycle"
+      ],
+      "stories": [
+        "Cox 1910 account of Roperite herds in the Sierra foothills",
+        "Digger Indian tradition (as relayed by Cox) of Roperites as the spirits of Spanish ranchers"
+      ],
+      "beliefs": "Treated by tellers and listeners alike as humorous fiction rather than literal cryptid; part of the camp humour and initiation rituals of late-19th and early-20th-century North American logging."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods — William T. Cox (1910)",
+        "Fearsome Creatures of the Lumberwoods: 20 Chilling Tales from the Wilderness — Hal Johnson (2015)"
+      ],
+      "other": [
+        "Frequently reprinted in fearsome-critters anthologies and bestiaries",
+        "Popular subject of contemporary folklore-illustration artbooks"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "Minnesota State Forester", "contribution": "Author of the foundational 1910 catalogue of fearsome critters that introduced the Roperite into print", "period": "1910" },
+      { "name": "Henry H. Tryon", "affiliation": "Forest Foundation, Cornwall-on-Hudson", "contribution": "Author of 'Fearsome Critters' (1939), a key secondary catalogue of the lumberjack tall-tale corpus", "period": "1939" },
+      { "name": "Hal Johnson", "affiliation": "Independent author", "contribution": "Modern revival and re-illustration of the fearsome-critter canon (2015)", "period": "2015–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Folklore-studies engagement only; treated as literary tradition rather than open cryptozoological investigation."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910", "url": "https://digitalcommons.unl.edu/nebraskianapubs/8/", "accessed": "2026-05-07" },
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press", "date": "1939" },
+    { "id": "johnson-2015", "type": "book", "title": "Fearsome Creatures of the Lumberwoods: 20 Chilling Tales from the Wilderness", "authors": ["Hal Johnson"], "publication": "Workman Publishing", "date": "2015", "isbn": "978-0761183181" },
+    { "id": "lumberwoods-roperite", "type": "website", "title": "Roperite — Fearsome Creatures of the Lumberwoods", "url": "http://www.lib.lumberwoods.org/fclw/roperite.html", "accessed": "2026-05-07" },
+    { "id": "abookofcreatures-roperite", "type": "website", "title": "Roperite — A Book of Creatures", "url": "https://abookofcreatures.com/2017/06/09/roperite/", "accessed": "2026-05-07" }
+  ]
 }
